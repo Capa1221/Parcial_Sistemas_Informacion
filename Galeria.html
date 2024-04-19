@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GALERIA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            border-top: 8px solid #3A3A3A;
+            border-left: 8px solid #3A3A3A;
+        }
+        .header {
+            border-top-left-radius: 4px;
+            background: #333 url('img/soccer-stadium-night-autobahn-highway-lights-red-F100021565.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 50px;
+            text-align: center;
+            border-left: 5%;
+        }
+        .content {
+            margin: 0px;
+            text-align: center; 
+        }
+        .sport {
+            background-image: linear-gradient(to bottom, #2289C4, #58A7D4, #A9D3EB);
+            border: 0px solid #ddd;
+            margin-bottom: 0px;
+            padding: 0px;
+            height: 100%;
+            width: 100%;
+            display: inline-block; 
+        }
+        .sport h2 {
+            margin-top: 0;
+        }
+        .sport p {
+            margin-bottom: 0;
+        }
+        .button {
+            background-color: none;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            margin-top: 10px;
+            display: block; 
+            border-radius: 5px; 
+        }
+        .image-container img {
+            height: 100%;
+            width: auto;
+            object-fit: cover;
+        }
+
+        .content, .footer {
+            text-align: center;
+        }
+
+        footer {
+            color: white;
+            background-color: #1F3E49;
+            text-align: center;
+            padding: 20px;
+            clear: both; 
+        }
+
+        .fotos {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 10px;
+            width: 300px; 
+            margin: auto;
+        }
+
+        .fotos img {
+            width: 100%; 
+            height: auto; 
+            border-radius: 10%; 
+            object-fit: cover; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Landing Page de Deportes</h1>
+            <p>¡Encuentra todo lo que necesita para mantenerte activo!</p>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <div class="sport">
+                <br>
+                <br>
+                <h2>Galería de fotos</h2>
+                <div class="fotos">
+                    <div class="image-container">
+                        <img src="img/1-img.png" alt="">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/2-img.png" alt="" style="height: 96.0;">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/3-img.png" alt="">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/4-img.png" alt="">
+                    </div>
+                </div>
+                <a href="index.html" class="button">Regresar</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        2023-Landing Page de Deportes
+    </footer>
+</body>
+</html>
